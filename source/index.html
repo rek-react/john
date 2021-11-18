@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('default/_head.html', {
+'title':'Home'
+})
+
+<body>
+   <div class="wrapper">
+      @@include('default/_header.html', {
+      'namePage': '0'
+      })
+      <main class="page">
+         <div class="hello">
+            <div class="hello__body container">
+               <div class="hello__content">
+                  <div class="hello__title title">
+                     Hi, I am John, <br>
+                     Creative Technologist
+                  </div>
+                  <div class="hello__text text">
+                     Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                     duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                  </div>
+                  <a href="#" class="hello__btn btn">
+                     Download Resume
+                  </a>
+               </div>
+               <img src="assets/images/hello/avatar.jpg" alt="Аватарка" class="hello__image">
+            </div>
+         </div>
+         <div class="posts">
+            <div class="posts__container container">
+               <div class="posts__header">
+                  <div class="posts__title subtitle">Recent posts</div>
+                  <a href="#" class="posts__view-all">View all</a>
+               </div>
+               <div class="posts__body">
+                  <div class="posts__col">
+                     <div class="posts__item">
+                        <a href="#" class="posts__link">
+                           Making a design system from scratch
+                        </a>
+                        <div class="posts__info info-posts">
+                           <span>12 Feb 2020</span>
+                           <span class="info-posts__separator">|</span>
+                           <a href="#">Design, Pattern</a>
+                        </div>
+                        <div class="posts__text text">
+                           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                           consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="posts__col">
+                     <div class="posts__item">
+                        <a href="#" class="posts__link">
+                           Creating pixel perfect icons in Figma
+                        </a>
+                        <div class="posts__info info-posts">
+                           <span>12 Feb 2020</span>
+                           <span class="info-posts__separator">|</span>
+                           <a href="#">Design, Pattern</a>
+                        </div>
+                        <div class="posts__text text">
+                           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                           consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="works">
+            <div class="works__container container">
+               <div class="works__title subtitle">Featured works</div>
+               <div class="works__items">
+                  <div class="works__item">
+                     <a href="#" class="works__image bg">
+                        <img src="assets/images/works/01.jpg" alt="">
+                     </a>
+                     <div class="works__content">
+                        <a href="#" class="works__link">Designing Dashboards</a>
+                        <div class="works__info">
+                           <span class="works__date">2020</span>
+                           <a href="#" class="works__category">Dashboard</a>
+                        </div>
+                        <div class="works__text text">
+                           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                           consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="works__item">
+                     <a href="#" class="works__image bg">
+                        <img src="assets/images/works/02.jpg" alt="">
+                     </a>
+                     <div class="works__content">
+                        <a href="#" class="works__link">Vibrant Portraits of 2020</a>
+                        <div class="works__info">
+                           <span class="works__date">2018</span>
+                           <a href="#" class="works__category">Illustration</a>
+                        </div>
+                        <div class="works__text text">
+                           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                           consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="works__item">
+                     <a href="#" class="works__image bg">
+                        <img src="assets/images/works/03.jpg" alt="">
+                     </a>
+                     <div class="works__content">
+                        <a href="#" class="works__link">36 Days of Malayalam type</a>
+                        <div class="works__info">
+                           <span class="works__date">2017</span>
+                           <a href="#" class="works__category">Typography</a>
+                        </div>
+                        <div class="works__text text">
+                           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                           consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+      @@include('default/_footer.html')
+   </div>
+   @@include('default/_js.html')
+</body>
+
+</html>

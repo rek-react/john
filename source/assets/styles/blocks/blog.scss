@@ -1,0 +1,62 @@
+.blog {
+   padding-bottom: 30px;
+   &__container {
+   }
+
+   &__title {
+      margin-bottom: 40px;
+      @include breakpoint($md-3, 0) {
+         margin-bottom: 20px;
+      }
+   }
+
+   &__items {
+   }
+
+   &__item {
+      padding-bottom: 30px;
+      border-bottom: 1px solid #e0e0e0;
+      margin-bottom: 30px;
+      &:last-child {
+         margin-bottom: 0;
+      }
+      @include breakpoint($md-3, 0) {
+         margin-bottom: 20px;
+         padding-bottom: 20px;
+      }
+   }
+
+   &__link {
+      font-size: 30px;
+      font-weight: 500;
+      color: inherit;
+      @include breakpoint($md-3, 0) {
+         font-size: 23px;
+      }
+   }
+
+   &__info {
+      font-size: 20px;
+      margin-top: 15px;
+      a {
+         color: #8695a4;
+      }
+      @include breakpoint($md-3, 0) {
+         font-size: 16px;
+      }
+   }
+
+   &__date {
+   }
+
+   &__separator {
+      margin: 0 20px;
+      @include breakpoint($md-3, 0) {
+         margin: 0 15px;
+      }
+   }
+
+   &__text {
+      margin-top: 15px;
+   }
+}

@@ -1,0 +1,54 @@
+@import "mixins";
+@import "vars";
+@import "fonts";
+@import "reboot";
+@import "bg";
+@import "wrapper&container";
+@import "btn";
+@import "blocks/header.scss";
+
+@import "blocks/hello.scss";
+@import "blocks/posts.scss";
+@import "blocks/works.scss";
+
+@import "blocks/blog.scss";
+
+@import "blocks/work-detail.scss";
+
+@import "blocks/footer.scss";
+
+body {
+   color: $black;
+   font-family: $fontFamily;
+   font-size: 14px;
+   &._lock {
+      overflow: hidden;
+   }
+}
+
+.page {
+   flex: 1 1 auto;
+   padding-top: 172px;
+   @include breakpoint($md-3, 0) {
+      padding-top: 75px;
+   }
+}
+.title {
+   font-weight: 700;
+   font-size: 44px;
+   line-height: calc((60 / 44) * 100%);
+   @include breakpoint($md-3, 0) {
+      font-size: 32px;
+   }
+}
+.text {
+   font-size: 16px;
+   line-height: calc((23 / 16) * 100%);
+}
+.subtitle {
+   font-size: 22px;
+   @include breakpoint($md-4, 0) {
+      text-align: center;
+      font-size: 18px;
+   }
+}
